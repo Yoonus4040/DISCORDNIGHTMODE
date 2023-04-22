@@ -46,6 +46,83 @@
 	--roundness: 16px;
 }
 
+
+/* Settings Page */
+.sidebarRegionScroller-FXiQOh,
+.accountProfileCard-lbN7n-
+{background:var(--darkgrey);}
+.contentRegionScroller-2_GT_N,
+.background-3d_SjE, .fieldList-in8WkP,
+.root-g14mjS
+{background:var(--grey);}
+.button-f2h6uQ, 
+.accountProfileCard-lbN7n-,
+.item-3XjbnG:hover,
+.swatch-efj8wq,
+.customColorPicker-C_jddW,
+.saturation-CLQHFD > div,
+.saturation-white,
+.saturation-black,
+.inputDefault-3FGxgL,
+.suggestedColor-2q1U7c,
+.container-20TyK0,
+.limitedBackground-2ogRHb,
+.limitedFeatureBorder-hpm0GQ,
+.root-g14mjS, 
+.file-input, 
+.optionBox-1UOevl, 
+.root-g14mjS, 
+.categoryFade-3RRG67,
+.result-pzZrwj > img, .result-pzZrwj > .gif-2kTiNB,
+.searchBar-3aIzc-,
+.result-pzZrwj:hover,
+.radioBar-3w9XY-, .item-2idW98,.assetsLargeImageUserPopoutV2-9ksyvz,
+.userProfileModalInner-3fh3QA:before,
+.badgeList-2pMvZX,
+.assetsLargeImageProfileV2-2nujZI
+{border-radius:var(--radius)!important;}
+.top-K_jibn .item-3XjbnG{
+    border-bottom:0px;
+    margin-bottom:16px;
+    padding:8px;
+}
+.searchBar-2aylmZ, .selected-g-kMVV{
+    padding:8px;
+    display:inline-flex;
+    align-items:center;
+}
+.tabBarItem-3VvT2z{height:inherit!important;}
+a[href="/store"] .avatarWithText-1tTt2S{
+    z-index: 2;
+}
+.interactiveSelected-29CP8y a[href="/store"]:before{
+    opacity:1!important;
+}
+a[href="/store"]:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(135deg, #8547c6 25%, #b845c1 62%, #ab5d8a 95%);
+    background-size: 200% 200%;
+    animation: gradient-bg 5s ease infinite;
+    border-radius:var(--radius);
+    color:white;
+    opacity:0;
+    transition: all 1s ease-in-out;  
+}
+a[href="/store"]:hover:before{
+    opacity:1;
+}
+.linkButton-2NshQj{padding-right:0px;}
+.sidebarRegion-1VBisG{margin:var(--spacing);}
+.sidebarRegionScroller-FXiQOh, .contentTransitionWrap-1YD530, .contentRegionScroller-2_GT_N {border-radius:var(--radius);}
+.contentRegion-3HkfJJ{margin:var(--spacing);margin-left:0px;border-radius:var(--radius);}
+.standardSidebarView-E9Pc3j{background:var(--lightgrey);}
+
 :root.theme-dark,
 .theme-dark,
 .default-colors,
