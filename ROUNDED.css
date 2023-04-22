@@ -1,4 +1,8 @@
 :root {
+	    --settings-min-height: 450px;
+    --settings-max-height: 650px;
+    --settings-min-width: 960px;
+    --settings-max-width: 960px;
 	/* link color */
 	--link-color: #5865f2;
 	/* main accent color (mentions, folder icons, unread indicators) */
